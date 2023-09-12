@@ -1,7 +1,8 @@
-package org.example;
+package hibernate.pojo;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "category")
@@ -11,6 +12,8 @@ public class Category implements Serializable {
     private int id;
     private String name;
     private String description;
+    @OneToMany(mappedBy = "category")
+    private List<Product> products;
 
     public int getId() {
         return id;
@@ -34,5 +37,13 @@ public class Category implements Serializable {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }
