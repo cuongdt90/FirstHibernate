@@ -4,6 +4,8 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.Set;
+
 @Entity
 @Table(name = "product")
 public class Product implements Serializable {
@@ -21,6 +23,13 @@ public class Product implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date createdDate;
     private boolean active;
+    @ManyToMany
+    @JoinTable(
+            name = "pro_man",
+            joinColumns = { @JoinColumn(name = "product_id") },
+            inverseJoinColumns = { @JoinColumn(name = "manufacturer_id") }
+    )
+    private Set<Manufacturer> manufacturers;
 
     public int getId() {
         return id;
@@ -84,5 +93,13 @@ public class Product implements Serializable {
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+
+    public Set<Manufacturer> getManufacturers() {
+        return manufacturers;
+    }
+
+    public void setManufacturers(Set<Manufacturer> manufacturers) {
+        this.manufacturers = manufacturers;
     }
 }

@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da59b32c-41c1-44c3-b1cc-a0103d8e6d01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FirstHibernate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/pojo/Manufacturer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/pojo/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HibernateTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HibernateTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Category.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/HibernateTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HibernateTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/HibernateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HibernateUtils.class" afterDir="false" />
     </list>
@@ -49,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QuanLyNhanSu" />
   </component>
   <component name="RunManager" selected="Application.HibernateTester">
     <configuration name="HibernateTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -108,34 +102,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694539346504" />
-    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1694541005628">
+    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1694592378135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694511373717" />
+    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694592378135" />
     <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694541005628" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1694515398472">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1694599428498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694515398472" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1694541135988">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694599428498" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1694598271654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694516068370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694598271654" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694541135988" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1694541135988">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1694598271654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694516068369" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694598271654" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694541135988" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1694541135988">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1694598271654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694516068369" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694598271654" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694541135988" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1694541135988">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1694598271654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694516068370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694598271654" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.174.1600.860@0.0.1920.1040" timestamp="1694541135988" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1694591789756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1694591789756" />
   </component>
 </project>

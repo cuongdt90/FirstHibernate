@@ -1,6 +1,7 @@
 package org.example;
 
 import hibernate.pojo.Category;
+import hibernate.pojo.Manufacturer;
 import hibernate.pojo.Product;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -28,6 +29,7 @@ public class HibernateUtils {
         conf.setProperties(props);
         conf.addAnnotatedClass(Category.class);
         conf.addAnnotatedClass(Product.class);
+        conf.addAnnotatedClass(Manufacturer.class);
 
         ServiceRegistry registry = new StandardServiceRegistryBuilder().applySettings(conf.getProperties()).build();
         FACTORY =conf.buildSessionFactory(registry);
